@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "832217758247",
+    "firebase_url": "https://fir-project-92318.firebaseio.com",
+    "project_id": "fir-project-92318",
+    "storage_bucket": "fir-project-92318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832217758247:android:e849d9ec8e85a47d",
+        "android_client_info": {
+          "package_name": "friendsforever.fyp.app.friendsforever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832217758247-sdn6gc1v6ouk3veaoobgr0u7ro9quc8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendsforever.fyp.app.friendsforever",
+            "certificate_hash": "e4908e5528c8edc66024cb2e4820c4e5af320e25"
+          }
+        },
+        {
+          "client_id": "832217758247-ruu5mp7u23cd0kdp75sinvid3ggmli1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCf4N5LLrcmy9oKDMmT2NW5h3QYdEqxd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832217758247-ruu5mp7u23cd0kdp75sinvid3ggmli1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

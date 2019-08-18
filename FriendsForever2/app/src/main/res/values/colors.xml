@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="dark">#551B72</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorend">#83f7f765</color>
+    <color name="texview">#6e6e6e </color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="colorPrimary">#D2691E	</color>
+    <color name="colorPrimaryDark">#201c16</color>
+    <color name="colorAccent">#cf6d6d</color>
+    <color name="colorOfgrid">#d4eac2</color>
+    <color name="colorgridmap">#e3f280ed</color>
+    <color name="colorStart">#1514fde2</color>
+    <color name="colorCenter">#e3f280ed</color>
+    <color name="colorEnd">#7df5e778</color>
+    <color name="sur">#2b0d28</color>
+    <color name="colorOrange">#acf1b463</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorOffBlack">#d4eac2</color>
+    <color name="lightgray">#ededed</color>
+    <color name="colorGrey">#59e9d8</color>
+    <color name="pur">#FF5722</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparen">#00ffffff</color>
+    <!--//Used in log in  grid view background-->
+    <color name="grid_view_background_color">#503664</color>
+    <color name="colorGreyTransparen">#87a6a6a6</color>
+    <color name="text_color_icon">#212121</color>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:layout_margin="3dp"
+    android:gravity="center">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:elevation="3dp"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linearlayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/pur"
+                    android:gravity="center"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:src="@drawable/lgo"
+                        android:padding="8dp"
+                        android:background="@drawable/circle"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="FriendForever"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:textStyle="italic" />
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/square"
+                    android:background="@color/pur"
+                    android:id="@+id/imageview1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="20dp"
+                    android:layout_marginTop="-20dp"
+                    android:rotation="45"
+                    android:layout_below="@+id/linearlayout1"
+                    android:layout_height="20dp" />
+                <RelativeLayout
+                    android:id="@+id/relatielayout1"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/imageview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:layout_alignParentTop="true"
+                        android:id="@+id/username"
+                        android:hint="username"
+                        android:paddingLeft="20dp"
+                        android:drawableRight="@drawable/ic_account_circle_black_24dp"
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/relatielayout3"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/relatielayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:layout_alignParentTop="true"
+                        android:hint="email"
+                        android:inputType="textEmailAddress"
+                        android:id="@+id/useremail"
+                        android:paddingLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:drawableRight="@drawable/ic_email_black_24dp"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/relatielayout2"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/relatielayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:layout_alignParentTop="true"
+                        android:hint="password"
+                        android:id="@+id/userpwd"
+                        android:paddingLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:drawableRight="@drawable/ic_enhanced_encryption_black_24dp"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/relatielayout4"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/relatielayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:layout_alignParentTop="true"
+                        android:hint="phone"
+                        android:inputType="number"
+                        android:id="@+id/userphone"
+                        android:paddingLeft="20dp"
+                        android:drawableRight="@drawable/ic_phone_black_24dp"
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/relatielayout5"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@+id/relatielayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:layout_alignParentTop="true"
+                        android:hint="address"
+                        android:id="@+id/useradress"
+                        android:drawableRight="@drawable/ic_place_black_24dp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/photo"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="8sp"
+                    android:background="@color/pur"
+                    android:text="Add a profile photo"
+                    android:layout_below="@+id/relatielayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/Profileimgvw"
+                    android:layout_below="@+id/photo"/>
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/userLoader"
+                    android:layout_centerHorizontal="true"
+                    app:indicatorColor="@color/pur"
+                    android:visibility="gone"
+                    android:layout_below="@id/Profileimgvw"
+                    style="@style/AVLoadingIndicatorView.Large"
+                    app:indicatorName="BallClipRotateMultipleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:textColor="@color/white"
+                    android:background="@color/pur"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="SignUp"
+                    android:textSize="15sp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/Profileimgvw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/Loginhere"
+                    android:textColor="@color/texview"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Already member exist?Login Hear"
+                    android:layout_below="@+id/btn_signup"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+
